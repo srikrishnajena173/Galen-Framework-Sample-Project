@@ -1,0 +1,55 @@
+{
+  "testId" : "1-homepage-layout",
+  "name" : "homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "error",
+      "time" : 1513508036228,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "inside screen 109px top",
+            "errors" : [ "\"header\" is 0px top instead of 109px" ],
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "inside screen 0px left",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "inside screen 0px right",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header" : {
+          "area" : [ 0, 0, 1167, 45 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1167, 2836 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
